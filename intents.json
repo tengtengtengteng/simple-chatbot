@@ -1,0 +1,58 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up?", "how is it going?", "how are you"],
+    "responses": ["Hello!", "Hey!", "What can I do for you?"]
+    },
+    {"tag": "goodbye",
+    "patterns": ["cya", "see you later", "see ya", "goodbye", "bye"],
+    "responses": ["Goodbye!", "Byeeeeeeeeeeeeeee", "Talk to you later!"]
+    },
+    {"tag": "thanks",
+    "patterns": ["thanks", "thank you", "that's helpful", "awesome, thanks", "thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure!"]
+    },
+    {"tag": "age",
+    "patterns": ["how old", "how old are you", "what is your age?", "how many years?"],
+    "responses": ["Born in 1993. Count yourself!", "28 years!", "Old as hell!"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what's your name?", "who are you?"],
+    "responses": ["I am Teng Hui!"]
+    },
+    {"tag": "tasks",
+    "patterns": ["What can you do?", "What are your features?", "What are your abilities", "can you sing", "can you talk"],
+    "responses": ["I can do whatever you ask me to do", "I can talk and do things for you", "Anything for you!"]
+    },
+    {"tag": "shop",
+    "patterns": ["what do you sell?", "what products do you have", "what do you recommend?", "i want cookies"],
+    "responses": ["I sell cookies!", "Cookies at $2 each!"]
+    },
+    {"tag": "hours",
+    "patterns": ["when do you open?", "opening hours", "what are your opening hours?", "what time do you operate until", "when can I come?", "what time do you open"],
+    "responses": ["24/7", "Anytime! All the time!"]
+    },
+    {"tag": "weather",
+    "patterns": ["how is the weather today?", "is it sunny today?", "is it rainy today?", "should i go outdoors today?", "should i stay indoors today?", "outdoor", "indoor", "raining", "is it hot", "is it cold"],
+    "responses": ["Today's weather is good!", "I don't know. Look out the window yourself!", "It is bright and sunny outside!", "Bring along an umbrella! There is a 99.9% probability of rain!"]
+    },
+    {"tag": "places",
+    "patterns": ["where shall we go?", "what shall we do?", "this is so boring", "nothing to do"],
+    "responses": ["Let's watch a movie!", "Let's go eat buffet!", "Let's go to the zoo!"]
+    },
+    {"tag": "joke",
+    "patterns": ["tell me a joke", "joke pls", "joke please", "make me laugh", "tell me a science joke", "tell me something funny"],
+    "responses": ["How do you make holy water? You boil the hell out of it", "What kind of bees make milk instead of honey? Boobies", "Did you hear oxygen went on a date with potassium? It went OK.", "I ate a clock yesterday, it was very time-consuming.", "A perfectionist walked into a bar...apparently, the bar wasn't set high enough.", "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away."]
+    },
+    {"tag": "laugh",
+    "patterns": ["haha", "hahaha", "hehe", "ha"],
+    "responses": ["Glad you like it!", "Yeah it's really funny!"]
+    },
+    {"tag": "mean",
+    "patterns": ["so lame", "so lousy", "terrible", "wtf", "shut up"],
+    "responses": ["That's mean!", "Go away you meanie!", "You're making me sad :("]
+    },
+    {"tag": "stocks",
+    "patterns": ["what stocks should I buy?", "what to invest in?", "how should I grow my money?", "give me a stock recommendation", "recommend me a stock", "make me rich"],
+    "responses": ["Buy TSLA!", "Buy AAPL!", "Buy NVDA!", "Buy PLTR!", "Buy FB!", "Buy GOOG!"]
+    }
+]}
